@@ -1,0 +1,42 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.loginBtn {
+    background-color: #1976d2;
+}
+
+.loginBtn:hover {
+    background-color: #115293;
+}
+
+.registerBtn {
+    background-color: #43a047;
+}
+
+.registerBtn:hover {
+    background-color: #2e7d32;
+}

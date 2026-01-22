@@ -1,0 +1,130 @@
+.agentItem {
+    cursor: pointer;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.agentItem:hover {
+    background-color: #e6f7ff;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.heading {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+    user-select: none;
+}
+
+.agentList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.agentItem {
+    cursor: pointer;
+    padding: 20px 25px;
+    margin-bottom: 15px;
+    background: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.agentItem:hover {
+    box-shadow: 0 6px 18px rgba(0,0,0,0.16);
+    transform: translateY(-4px);
+}
+
+.agentInfo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-size: 16px;
+    color: #444;
+    user-select: none;
+}
+
+.statusDot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    box-shadow: 0 0 5px rgba(0,0,0,0.12);
+}
+
+.statusOnline {
+    background-color: #28a745;
+}
+
+.statusOffline {
+    background-color: #dc3545;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.input {
+    width: 100px;
+    padding: 8px 10px;
+    border: 1.5px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: border-color 0.3s ease;
+}
+
+.input:focus {
+    border-color: #4caf50;
+    outline: none;
+}
+
+.saveButton {
+    padding: 8px 18px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.saveButton:hover:not(:disabled) {
+    background-color: #45a049;
+}
+
+.saveButton:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}

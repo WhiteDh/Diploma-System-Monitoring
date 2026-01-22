@@ -1,0 +1,81 @@
+Folder PATH listing for volume New Volume
+Volume serial number is 9CD0-D88A
+D:.
+│   project_tree.txt
+│   
+├───java
+│   └───ua
+│       └───cn
+│           └───stu
+│               └───diploma
+│                   └───system_monitor_java
+│                       │   SystemMonitorJavaApplication.java
+│                       │   
+│                       ├───config
+│                       │       JWTAuthenticationFilter.java
+│                       │       SecurityConfig.java
+│                       │       WebConfig.java
+│                       │       WebSocketConfig.java
+│                       │       
+│                       ├───controller
+│                       │       AgentConfigController.java
+│                       │       AgentController.java
+│                       │       AgentStatusController.java
+│                       │       AuthController.java
+│                       │       MetricController.java
+│                       │       ThresholdController.java
+│                       │       
+│                       ├───dto
+│                       │       AgentConfigurationDto.java
+│                       │       AgentRequest.java
+│                       │       AgentResponse.java
+│                       │       AuthResponse.java
+│                       │       MetricRequest.java
+│                       │       MetricResponse.java
+│                       │       ThresholdRequest.java
+│                       │       ThresholdResponse.java
+│                       │       UserLoginRequest.java
+│                       │       UserRegisterRequest.java
+│                       │       UserResponse.java
+│                       │       
+│                       ├───entity
+│                       │       Agent.java
+│                       │       AgentConfiguration.java
+│                       │       Metric.java
+│                       │       Threshold.java
+│                       │       User.java
+│                       │       
+│                       ├───exception
+│                       │       GlobalExceptionHandler.java
+│                       │       
+│                       ├───repository
+│                       │       AgentConfigurationRepository.java
+│                       │       AgentRepository.java
+│                       │       MetricRepository.java
+│                       │       ThresholdRepository.java
+│                       │       UserRepository.java
+│                       │       
+│                       └───service
+│                               AgentConfigurationService.java
+│                               AgentService.java
+│                               AgentStatusScheduler.java
+│                               JWTTokenService.java
+│                               MetricService.java
+│                               MonitoringService.java
+│                               ThresholdService.java
+│                               UserService.java
+│                               
+└───resources
+    │   application-dev.properties
+    │   application-prod.properties
+    │   application.properties
+    │   
+    ├───db
+    │   └───migration
+    │           V1__init_schema.sql
+    │           V2__add_uuid_to_agents.sql
+    │           V3__add_agent_configuration.sql
+    │           V4__thresholds_agent_id_fk.sql
+    │           
+    ├───static
+    └───templates

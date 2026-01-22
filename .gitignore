@@ -1,0 +1,20 @@
+# Backend (Gradle)
+system-monitor-backend/.gradle/
+system-monitor-backend/build/
+
+# Frontend (Node.js / React)
+system-monitor-frontend/node_modules/
+system-monitor-frontend/dist/
+
+# Python Agent
+system-monitor-agent/__pycache__/
+system-monitor-agent/venv/
+system-monitor-agent/*.pyc
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
