@@ -59,8 +59,8 @@ The project consists of three parts:
 ## 🚀 Installation & Running
 ### 1️⃣ Clone the repository
 ```
-git clone link
-cd system-monitor-java
+git clone https://github.com/WhiteDh/Diploma-System-Monitoring.git
+cd system-monitor-backend
 ```
 
 ### 2️⃣ Run the project via Docker Compose
@@ -81,7 +81,7 @@ You do not need to run ./gradlew bootRun manually unless you want to run the bac
 
 ### 3️⃣ Frontend
 ```
-cd System-Monitor-FrontEnd
+cd system-monitor-frontend
 npm install
 npm run dev
 ```
@@ -90,7 +90,7 @@ Open your browser at http://localhost:5173 (default Vite port) to view the dashb
 
 ### 4️⃣ Python Agent
 ```
-cd System-Monitor-agent
+cd system-monitor-agent
 pip install -r requirements.txt
 python agent.py
 ```
