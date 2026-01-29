@@ -15,6 +15,7 @@ As an educational project, it helped me study:
 - Frontend development with React
 
 - Agent-based data collection
+<img width="961" height="457" alt="image" src="https://github.com/user-attachments/assets/13a26302-5f53-4641-b044-590090115bf3" />
 
  ## ❗ 
  ### The main focus is on the backend, which handles all server processes, database operations, and user authentication.
